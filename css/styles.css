@@ -1,0 +1,84 @@
+
+body {  background-color: #eceff0;
+ font-family:'Quicksand';}
+      
+.container {
+ background-color: #fff;
+  margin: 30px auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+}
+.header{
+  font-family: "Shadows Into Light Two", cursive;
+}
+
+form {
+  outline: 0;
+  height: 36px;
+  margin-top: 5%;
+  border: 3px solid #3b3b3b;
+}
+
+input[type="text"] {
+  outline: 0;
+  width: 67%;
+  height: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+.add {
+  outline: 0;
+  float: right;
+  width: 30%;
+  height: 36px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #3b3b3b;
+}
+.add:hover{
+  background:#A9A9A9;
+}
+
+ul {
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+hr {
+  border-bottom: 0;
+  margin: 15px 0;
+}
+
+input[type="checkbox"] { 
+
+width: 30px; 
+cursor: pointer;
+}
+
+.remove {
+  float: right;
+  cursor: pointer;
+  color: #363639;
+  padding: 3px 6px;
+  border: 0;
+  opacity: 0.6;
+}
+.remove:hover{
+  background: #DC143C;
+}
+
+.completed { 
+  color:  #F08080;
+  text-decoration: line-through; 
+
+cursor: pointer;}
